@@ -17,7 +17,7 @@ If this breaks while in a breakout room. Click the 3 dots, or there may be a mor
 
 Your models and associations should be set up for you for this code challenge. You will have a simple one to many relationship between a blog that has many comments and a comment belongs to a blog. Your goal is to:
 
-Create a get route to `/blogs_comments/<int:n>`. This route should return an array of all of the blogs as json. However formatted in this way:
+Create a get route to `/blogs_comments`. This route should return an array of all of the blogs as json. However formatted in this way:
 
 ```
 [
